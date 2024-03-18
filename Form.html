@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+<style>
+        body {
+            background-color: rgb(0,0,0);
+            color: blue;
+            font: normal 16px;
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+    </style><h2>Menu</h2>
+</head>
+<body>
+	  <p>
+       <ol style="margin-top: 55px;"><li style="text-align: center; font-size: 32; font-family: times new roman;">
+    <a href="home.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">HOME</a>
+    <a href="about.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">ABOUT US</a>
+    <a href="contact.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">CONTACT</a>
+    <a href="service.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">SERVICE</a>
+    <a href="form.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">FORM</a>
+    <a href="table.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">TABLE</a>
+    <a href="mybook.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">MY BOOK
+    </a></li>
+</ol>
+    </p>
+    <marquee><h1><big>WELCOME TO FOOD ORDERING SYSTEM</h1></big></marquee>
+    <hr>
+    <h1>Form Example</h1>
+    <center>
+        <form action="#" method="POST">
+            <label for="id">ID</label>
+            <input type="number" name="id" id="id"><br>
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br>
+
+            <label for="gender">Gender</label>
+            <input type="text" name="gender" id="gender"><br>
+
+            <label for="date">DOB</label>
+            <input type="date" name="date" id="date"><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age"><br>
+
+            
+           
+
+            <label for="COUNTRY">COUNTRY</label>
+            <select name="RWANDA" id="RWANDA">
+                <option value="BURUNDI">BURUNDI</option>
+                <option value="KENYA">KENYA</option>
+                <option value="TANZANIA">TANZANIA</option>
+                <option value="UGANDA">UGANDA</option>
+                <option value="RDC">RDC</option>
+                
+            </select><br>
+
+            <label for="Address">address</label>
+            <input type="text" name="addrs" id="addrs"><br>
+
+
+            <label>Sex</label>
+            <input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female<br>
+
+            <input type="submit" name="sbt" value="SUBMIT">
+            <input type="reset" name="cnl" value="CANCEL"><br>
+        </form>
+    </center>
+</body>
+</html>
